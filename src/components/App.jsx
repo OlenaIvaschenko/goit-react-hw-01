@@ -1,6 +1,9 @@
 
-import Profile from "./Profile/Profile.jsx"
+import Profile from "./Profile/Profile.jsx";
 import userData from "../userData.json";
+import FriendList from "./Friendlist/Friendlist.jsx";
+import friends from "../friends.json";
+import "../components/App.css"
 
 const App =()=> {
   
@@ -14,8 +17,10 @@ const App =()=> {
         image={userData.avatar}
         stats={userData.stats}
       />
+<FriendList friends={friends} />
     </>
   );
 };
 
 export default App
+
