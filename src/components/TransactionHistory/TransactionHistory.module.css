@@ -1,0 +1,48 @@
+.table {
+    width: 50%;
+    border-collapse: collapse;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  
+  .tableHeader {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .headerRow th {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .transactionRaw:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .transactionRaw:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .transactionRaw:hover {
+    background-color: #e0f7fa;
+  }
+  
+  .transactionTypeData,
+  .transactionAmountData,
+  .transactionCurrencyData {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .rowHeaderType,
+  .rowHeaderAmount,
+  .rowHeaderCurrency {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+  }
+  

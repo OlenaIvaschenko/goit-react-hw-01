@@ -5,6 +5,7 @@ import FriendList from "./FriendList/FriendList.jsx";
 import friends from "../friends.json";
 import "../components/App.css"
 import TransactionHistory from "./TransactionHistory/TransactionHistory.jsx";
+import transactions from "../transactions.json"
 
 const App =()=> {
   
@@ -19,7 +20,7 @@ const App =()=> {
         stats={userData.stats}
       />
 <FriendList friends={friends} />
-<TransactionHistory />
+<TransactionHistory items={transactions} />
     </>
   );
 };

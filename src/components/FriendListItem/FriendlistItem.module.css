@@ -1,0 +1,49 @@
+.friendlistitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: 100px;
+  }
+  
+  .friendlistitem:hover {
+    background-color: #e0e0e0;
+  }
+  
+ 
+  .avatar {
+    border-radius: 50%;
+    
+  }
+  
+  .name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+   
+  }
+ 
+  .status {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .online {
+    color: green;
+    
+  }
+  
+ 
+  .offline {
+    color: red;
+   
+  }
+  
+  .friendlistitem .name {
+    flex-grow: 1;
+  }
